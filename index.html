@@ -1,50 +1,271 @@
-<html>
-   
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
 <body>
-<table border="0" width="100%">
-    <col align="left">
-    <col style="width:85%">
-	<col style="width:15%"> 
-    <tbody>
-        <tr>
-            <td><img src="https://newslab.iith.ac.in/images/people/mtech/CS17MTECH11015.jpg" alt="Mohit Kumar Singh" height="150" width="150"></td>
-            <td>
-                <ul>
-                    <strong>Mohit Kumar Singh</strong><br>
-                    <strong>M.Tech(Research Scholar)</strong><br>
-                    <strong>Email: cs17mtech11015@iith.ac.in </strong><br>
-                    <strong>Research Areas:</strong><br>
-                     <ul style="list-style-type:disc">
-                      <li>Developing Scalable and Cloud Native Solutions for 5G Architecture.</li>
-                      <li>Network Slicing in 5G network.</li>
-                      <li>Development of Algorithms enhancing the scaling of VNFs</li>
-                    </ul> 
-                    <strong> <a href="https://codeme0720.github.io/"> My page </a> </strong>
-                </ul>
-            </td>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
 
-        </tr>
-    </tbody>
-</table>
-<hr/>
-<strong>Publications:</strong>
-<ul style="list-style-type:disc"> 
-    <li><div>
-    <p> Shwetha Vittal, Mohit Kumar, and Antony Franklin, <b>"Adaptive Network Slicing with Multi-Site Deployment in 5G Core Networks"</b>, in <em> press of 6th IEEE Conference on Network Softwarization (NETSOFT)</em> 2020, Ghent, Belgium.
-    <br>[<a target="_blank">Accepted Version</a>] [<a target="_blank">DOI Link</a>]
-    <li><div>
-    <p> Madhura A, Mohit Kumar, and Bheemarjuna Reddy Tamma, <b>"ONVM-5G: a framework for realization of 5G core in a box using DPDK "</b>, <em>CSI Transactions on ICT</em>, May, 2020."
-    <br>[<a href="https://newslab.iith.ac.in/files/journals/ONVM-5G.pdf" target="_blank">Accepted Version</a>] [<a href=" https://doi.org/10.1007/s40012-020-00275-7" target="_blank">DOI Link</a>]
-    <li><div>
-    <p> Mohit Kumar Singh, Anand M. Baswade, Antony Franklin, and Bheemarjuna Reddy Tamma<b>, "WiFi Users Video QoE in the Presence Duty Cycled LTE-U"</b>, in <em> Proc. of 24th Annual International Conference on Mobile Computing and Networking(MobiCom 2018) ACM</em>, 2018, New Delhi, India.
-    <br>[<a href="https://drive.google.com/file/d/1vvzMkCehSs_ECtcMtgm8qEQ2qAlul33o/view?usp=sharing" target="_blank">Accepted Version</a>] [<a href="https://dl.acm.org/citation.cfm?id=3267780" target="_blank">DOI Link</a>]
-    </div></li>
-    <li><div>
-    <p> Mohit Kumar Singh, Gaurav Garg, Tulja Vamshi Kiran Buyakar, Venkatrami Reddy, Antony Franklin, and Bheemarjuna Reddy Tamma, <b>"Dynamic Adaptation of Cooldown Period for Auto Scaling of VNFs</b>", in <em> Proc. of Internet Conference 2018, Tokyo, Japan.</em>, 2018
-    .<br>[<a href="https://drive.google.com/file/d/152JmeihZifFmGuw_cOusihi8AsD8DOzV/view?usp=sharing" target="_blank">Accepted Version</a>] [<a href="https://www.internetconference.org/ic2018/ic2018-poster-paper19.pdf" target="_blank">DOI Link</a>]
-    </div></li>   
-</ul>    
-<hr/>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Mohit Kumar Singh</h1>
+            <h2>Software Engineer</h2>
+            <a href="https://drive.google.com/file/d/101yRrk3_n1M4jxEdbgs2QlUbNDiedspc/view?usp=sharing" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                    Hi, I am Mohit Kumar Singh, I am working as Software Engineer at Microsoft, India. I have completed my Masters from Indian Institute of Technology Hyderabad in 2020.
+                    I am always been looking to solve the real life problems through the smart and efficient algorithsm and piece of codes to make the life in this world more happy and 
+                    wonderful. I have worked on the projects requiring the smart decision making algorithms in field of networking (5G and IoT). I am a guy who beleives in HARD WORK
+                    and believes that we can solve a lot of problems through better usage of technology and better code.
+                    So, let's code and make this world a more beatiful to live in.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="July 2020 – Present">
+                <h3>Microsoft</h3>
+                <h4>Software Engineer</h4>
+                <p>
+                Software Engineer at Microsoft. I am located at Hyderabad, India.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Indian Institute of Technology</h3>
+            <span class="education-date">August 2017 - July 2020</span>
+            <h4>Masters in Technology<br>(Department of Computer Science and Engineering)</h4>
+            <p>
+            Worked in the domain of 5G slicing and IoT. Learned a lot about making the use of analytics for making
+            a better decision in terms of usage of resources. Worked on the IoT protocols like MQTT and Kafka, developed
+            IoT smart home projects using them and mentor some of the projects having these technologies.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>JSS Academy of Technical Education, Noida</h3>
+            <span class="education-date">July 2013 - August 2017</span>
+            <h4>Bachelors in Technology <br>(Department of Computer Science and Engineering)</h4>
+            <ul>
+                <li>
+                    Participated in ACM-ICPC 2015 at regional level.
+                </li>
+                <li>
+                    Solved lot many real problems on various coding platforms like codechef (Rating: 4 Star, Handle: codeme0720).
+                </li>
+                <li>
+                    Took participations in various college technical festivals and won some coding competitions. 
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Publications</h3>
+                        <p><ul>
+                        <li>Mohit Kumar Singh, Anand M. Baswade, Antony Franklin, and Bheemarjuna Reddy Tamma, "WiFi Users Video QoE in the Presence Duty Cycled LTE-U", in Proc. of 24th Annual International Conference on Mobile Computing and Networking(MobiCom 2018) ACM, 2018, New Delhi, India. </li>
+                        <li>Mohit Kumar Singh, Gaurav Garg, Tulja Vamshi Kiran Buyakar, Venkatarami Reddy, Antony Franklin, and Bheemarjuna Reddy Tamma, "Dynamic Adaptation of Cooldown Period for Auto Scaling of VNFs", in Proc. of Internet Conference 2018, Tokyo, Japan., 2018. </li>
+                        <li>Shwetha Vittal, Mohit Kumar Singh, and Antony Franklin, "Adaptive Network Slicing with Multi-Site Deployment in 5G Core Networks", in press of 6th IEEE Conference on Network Softwarization (NETSOFT) 2020, Ghent, Belgium. </li>
+                        <li>Madhura A, Mohit Kumar Singh, and Bheemarjuna Reddy Tamma, "ONVM-5G: a framework for realization of 5G core in a box using DPDK ", CSI Transactions on ICT, May, 2020." </li>
+                        <li>Mohit Kumar Singh, Shwetha Vittal, and Antony Franklin, "SERENS: Self Realising Network Slicing in 5G for Efficient Resource Utilization", under review in 3rd IEEE Conference on 5G World Forum 2020, Virtual Event. </li> </ul>
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Projects</h3>
+                        <p><ul>
+                        <li>16'Summer Intership @ Air India: Web Development for their departmental website, including admin-login pages while providing the security to
+                        the admin pages.</li>
+                        <li>IoT Smart Home Application: Generate smart home application which aggregates readings from the different sensors and makes a decision
+                        controlling the smart home using Kafka.</li>
+                        <li>Video Summarization: Generated short video summarization video of a given long video using NLP/IR techniques for a educational video
+                        from NPTEL.</li>
+                        <li>Table of Content Generation: Generated Table of Content for the educational videos from NPTEL.</li>
+                        <li>Smart IoT Application: Sending Contextual Suggestion on the Basis of User Client
+                        Behaviour Pattern.</li>
+                        <li>Parallel Programming: Parallelism in Maximum Sum Subsequence</li>
+                        <li>Smart City: Identifying Lost Person from the CCTV Surveillance</li>
+                        </ul></p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>IoT</li>
+            <li>Kafka</li>
+            <li>MQTT</li>
+            <li>NLP</li>
+            <li>NLTK</li>
+            <li>Data Structures</li>
+            <li>Algorithms</li>
+            <li>Monitoring</li>
+            <li>Prometheus</li>
+            <li>Grafana</li>
+            <li>NFV</li>
+            <li>Docker</li>
+            <li>Containers</li>
+            <li>Parallel Programming</li>
+            <li>Data Analysis</li>
+            <li>5G</li>
+            <li>Network Slicing</li>
+            <li>Coding</li>
+            <li>Competitive Programming</li>
+            <li>OAI: 5G Simulation</li>
+            <li>OSM: Open Source Management & Orchectration</li>
+            <li>Big Data Analysis</li>
+            <li>Data Generation: Simulators</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 Mohit Kumar Singh (codeme0720)
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/codeme0720" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/codeme0720" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/mohitkr0720" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
-</html>
 
+</html>
